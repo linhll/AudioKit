@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "AudioKit",
-    platforms: [.macOS(.v11), .iOS(.v13), .tvOS(.v13)],
+    platforms: [.macOS(.v11), .iOS(.v12), .tvOS(.v13)],
     products: [.library(name: "AudioKit", targets: ["AudioKit"])],
     targets: [
         .target(name: "AudioKit"),
