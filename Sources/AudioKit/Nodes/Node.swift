@@ -120,7 +120,7 @@ extension Node {
 
     /// Scan for all parameters and associate with the node.
     /// - Parameter node: AVAudioNode to associate
-    func associateParams(with node: AVAudioNode) {
+    public func associateParams(with node: AVAudioNode) {
         let mirror = Mirror(reflecting: self)
 
         for child in mirror.children {
